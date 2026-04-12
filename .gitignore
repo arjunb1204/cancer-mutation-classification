@@ -1,0 +1,31 @@
+# Data files (too large for GitHub — download from Kaggle)
+raw data/
+preprocessed data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+.~lock*
+
+# IDE
+.vscode/
+.idea/
+
+# Presentations & generated files
+*.pptx
+*.pdf
+
+# Kaggle
+dataset-metadata.json
