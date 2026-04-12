@@ -38,6 +38,7 @@ This project frames the problem as a **binary classification task**: given a som
 .
 ├── README.md                                  # This file
 ├── cancer_mutation_classification.ipynb       # The complete end-to-end pipeline
+├── requirements.txt                           # Python dependencies
 ├── .gitignore                                 # Git ignore rules
 │
 
@@ -151,7 +152,8 @@ python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
 # .venv\Scripts\activate   # Windows
 
-# The notebook contains a cell to install required dependencies via pip
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ### Running the Pipeline
