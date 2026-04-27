@@ -38,14 +38,18 @@ This project frames the problem as a **binary classification task**: given a som
 .
 ├── README.md                                  # This file
 ├── cancer_mutation_classification.ipynb       # The complete end-to-end pipeline
+├── project_report.docx                        # The comprehensive project thesis/report (ignored in git)
+├── thesis_figure_generation.ipynb             # Notebook dedicated to generating report figures
 ├── requirements.txt                           # Python dependencies
 ├── .gitignore                                 # Git ignore rules
 │
-
-└── eda/                                       # Additional saved EDA figures
+├── eda/                                       # Additional saved EDA figures
+├── thesis_figures/                            # High-quality figures organized by chapter for the report
+└── papers/                                    # Reference research papers and literature (ignored in git)
 ```
 
-> **`cancer_mutation_classification.ipynb`** is the only notebook you need. It contains the entire pipeline from raw data ingestion through to final model evaluation, all in one place.
+> **`cancer_mutation_classification.ipynb`** is the main notebook containing the entire pipeline from raw data ingestion through to final model evaluation, all in one place.
+> **`thesis_figure_generation.ipynb`** is a supplementary notebook used specifically to generate high-quality visuals for the `project_report.docx`, saving them into the `thesis_figures/` directory.
 
 ---
 
