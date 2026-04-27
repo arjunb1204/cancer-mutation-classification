@@ -179,35 +179,37 @@ Skipping raw ingestion — using preprocessed data instead.
 
 ## 📚 References
 
-The algorithms, methodologies, and definitions employed in this project are drawn from the following comprehensive literature (you can find the full PDFs organized within the `papers/` directory):
+The algorithms, methodologies, and definitions employed in this project are drawn from the following comprehensive literature (full PDF collection located in `papers/`):
 
-**Cancer Genomics & Biological Baselines:**
-1. Sondka, Z. et al. (2018). *The COSMIC Cancer Gene Census.* Nature Reviews Cancer, 18(11).
-2. Tate, J.G. et al. (2019). *COSMIC: the Catalogue Of Somatic Mutations In Cancer.* NAR, 47(D1).
-3. Vogelstein, B. et al. (2013). *Cancer genome landscapes.* Science, 339(6127).
-4. Bailey, M.H. et al. (2018). *Comprehensive Characterization of Cancer Driver Genes and Mutations.* Cell, 173(2).
-5. Hanahan, D. & Weinberg, R. A. (2011). *Hallmarks of cancer: the next generation.* Cell, 144(5).
-6. Stratton, M. R. et al. (2009). *The cancer genome.* Nature, 458(7239).
-7. Alexandrov, L. B. et al. (2013). *Signatures of mutational processes in human cancer.* Nature, 500(7463).
-8. Martincorena, I. et al. (2017). *Universal patterns of selection in cancer and somatic tissues.* Cell, 171(5).
-
-**Variant Effect Classifiers & Target Identification Tools:**
-9. Adzhubei, I. A. et al. (2010). *A method and server for predicting damaging missense mutations (PolyPhen-2).* Nature Methods, 7(4).
-10. Ng, P. C. & Henikoff, S. (2001). *Predicting deleterious amino acid substitutions (SIFT).* Genome Research, 11(5).
-11. Kircher, M. et al. (2014). *A general framework for estimating the relative pathogenicity of human genetic variants (CADD).* Nature Genetics, 46(3).
-12. Carter, H. et al. (2009). *Cancer-specific high-throughput annotation of somatic mutations (CHASM).* Cancer Research, 69(16).
-13. Tokheim, C. & Karchin, R. (2019). *CHASMplus reveals the scope of somatic missense mutations driving human cancers.* Cell Systems, 9(1).
-14. Lawrence, M. S. et al. (2013). *Mutational heterogeneity in cancer and the search for new cancer-associated genes (MutSigCV).* Nature, 499(7457).
-
-**Machine Learning & Statistics:**
-15. Chen, T. & Guestrin, C. (2016). *XGBoost: A Scalable Tree Boosting System.* KDD '16.
-16. Ke, G. et al. (2017). *LightGBM: A Highly Efficient Gradient Boosting Decision Tree.* NeurIPS 2017.
-17. Breiman, L. (2001). *Random forests.* Machine Learning, 45(1).
-18. Friedman, J. H. (2001). *Greedy function approximation: a gradient boosting machine.* Annals of Statistics, 29(5).
-19. Chawla, N. V. et al. (2002). *SMOTE: synthetic minority over-sampling technique.* JAIR, 16.
-20. Lundberg, S.M. & Lee, S.-I. (2017). *A Unified Approach to Interpreting Model Predictions (SHAP).* NeurIPS 2017.
-21. Saito, T. & Rehmsmeier, M. (2015). *The Precision-Recall Plot Is More Informative than the ROC Plot.* PLoS ONE, 10(3).
-22. Pedregosa, F. et al. (2011). *Scikit-learn: Machine learning in Python.* JMLR, 12.
+1. Adzhubei, I. A., Schmidt, S., Peshkin, L., Ramensky, V. E., Gerasimova, A., Bork, P., Kondrashov, A. S., & Sunyaev, S. R. (2010). A method and server for predicting damaging missense mutations. *Nature Methods*, 7(4), 248-249.
+2. Alexandrov, L. B., Nik-Zainal, S., Wedge, D. C., Aparicio, S. A. J. R., Behjati, S., Biankin, A. V., ... & Stratton, M. R. (2013). Signatures of mutational processes in human cancer. *Nature*, 500(7463), 415-421.
+3. Bailey, M. H., Tokheim, C., Porta-Pardo, E., Sengupta, S., Bertrand, D., Weerasinghe, A., ... & Ding, L. (2018). Comprehensive characterization of cancer driver genes and mutations. *Cell*, 173(2), 371-385.
+4. Breiman, L. (2001). Random forests. *Machine Learning*, 45(1), 5-32.
+5. Carter, H., Chen, S., Isik, L., Tyekucheva, S., Velculescu, V. E., Kinzler, K. W., Vogelstein, B., & Karchin, R. (2009). Cancer-specific high-throughput annotation of somatic mutations: Computational prediction of driver missense mutations. *Cancer Research*, 69(16), 6660-6667.
+6. Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002). SMOTE: Synthetic minority over-sampling technique. *Journal of Artificial Intelligence Research*, 16, 321-357.
+7. Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *In Proceedings of the 22nd ACM SIGKDD International Conference* (pp. 785-794).
+8. Friedman, J. H. (2001). Greedy function approximation: A gradient boosting machine. *Annals of Statistics*, 29(5), 1189-1232.
+9. Gonzalez-Perez, A., & Lopez-Bigas, N. (2012). Functional impact bias reveals cancer drivers. *Nucleic Acids Research*, 40(21), e169.
+10. Hanahan, D., & Weinberg, R. A. (2011). Hallmarks of cancer: The next generation. *Cell*, 144(5), 646-674.
+11. Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction* (2nd ed.). Springer.
+12. He, H., & Garcia, E. A. (2009). Learning from imbalanced data. *IEEE Transactions on Knowledge and Data Engineering*, 21(9), 1263-1284.
+13. Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., & Liu, T.-Y. (2017). LightGBM: A highly efficient gradient boosting decision tree. *Advances in Neural Information Processing Systems*, 30.
+14. Kircher, M., Witten, D. M., Jain, P., O'Roak, B. J., Cooper, G. M., & Shendure, J. (2014). A general framework for estimating the relative pathogenicity of human genetic variants. *Nature Genetics*, 46(3), 310-315.
+15. Lawrence, M. S., Stojanov, P., Polak, P., Kryukov, G. V., Cibulskis, K., Sivachenko, A., ... & Getz, G. (2013). Mutational heterogeneity in cancer and the search for new cancer-associated genes. *Nature*, 499(7457), 214-218.
+16. Lundberg, S. M., & Lee, S.-I. (2017). A unified approach to interpreting model predictions. *Advances in Neural Information Processing Systems*, 30.
+17. Martincorena, I., Raine, K. M., Gerstung, M., Dawson, K. J., Haase, K., Van Loo, P., Davies, H., ... & Campbell, P. J. (2017). Universal patterns of selection in cancer and somatic tissues. *Cell*, 171(5), 1029-1041.
+18. McNemar, Q. (1947). Note on the sampling error of the difference between correlated proportions or percentages. *Psychometrika*, 12(2), 153-157.
+19. Ng, P. C., & Henikoff, S. (2003). SIFT: Predicting amino acid changes that affect protein function. *Nucleic Acids Research*, 31(13), 3812-3814.
+20. Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research*, 12, 2825-2830.
+21. Reva, B., Antipin, Y., & Sander, C. (2011). Predicting the functional impact of protein mutations: Application to cancer genomics. *Nucleic Acids Research*, 39(17), e118.
+22. Saito, T., & Rehmsmeier, M. (2015). The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. *PLoS ONE*, 10(3), e0118432.
+23. Shihab, H. A., Gough, J., Cooper, D. N., Stenson, P. D., Barker, G. L. A., Edwards, K. J., ... & Gaunt, T. R. (2013). Predicting the functional, molecular, and phenotypic consequences of amino acid substitutions using hidden Markov models. *Human Mutation*, 34(1), 57-65.
+24. Sondka, Z., Bamford, S., Cole, C. G., Ward, S. A., Dunham, I., & Forbes, S. A. (2018). The COSMIC Cancer Gene Census: Describing genetic dysfunction across all human cancers. *Nature Reviews Cancer*, 18(11), 696-705.
+25. Stratton, M. R., Campbell, P. J., & Futreal, P. A. (2009). The cancer genome. *Nature*, 458(7239), 719-724.
+26. Tamborero, D., Gonzalez-Perez, A., & Lopez-Bigas, N. (2013). OncodriveCLUST: Exploiting the positional clustering of somatic mutations to identify cancer genes. *Bioinformatics*, 29(18), 2238-2244.
+27. Tate, J. G., Bamford, S., Jubb, H. C., Sondka, Z., Beare, D. M., Bindal, N., ... & Forbes, S. A. (2019). COSMIC: The Catalogue Of Somatic Mutations In Cancer. *Nucleic Acids Research*, 47(D1), D941-D947.
+28. Tokheim, C. J., Papadopoulos, N., Kinzler, K. W., Vogelstein, B., & Karchin, R. (2016). Evaluating the evaluation of cancer driver genes. *Proceedings of the National Academy of Sciences*, 113(50), 14330-14335.
+29. Vogelstein, B., Papadopoulos, N., Velculescu, V. E., Zhou, S., Diaz, L. A., & Kinzler, K. W. (2013). Cancer genome landscapes. *Science*, 339(6127), 1546-1558.
 
 ---
 
