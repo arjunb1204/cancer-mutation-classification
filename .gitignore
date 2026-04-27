@@ -35,5 +35,8 @@ Thumbs.db
 # Kaggle
 dataset-metadata.json
 
-# Document
-*.docx
+# Thesis Drafts (Keep project_report.docx tracked)
+*THESIS.docx
+thesis_final.docx
+
+
