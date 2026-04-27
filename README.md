@@ -179,14 +179,35 @@ Skipping raw ingestion — using preprocessed data instead.
 
 ## 📚 References
 
-1. Sondka, Z. et al. (2018). *The COSMIC Cancer Gene Census.* Nature Reviews Cancer, 18(11), 696–705. [DOI](https://doi.org/10.1038/s41568-018-0060-1)
-2. Tate, J.G. et al. (2019). *COSMIC: the Catalogue Of Somatic Mutations In Cancer.* NAR, 47(D1), D941–D947. [DOI](https://doi.org/10.1093/nar/gky1015)
-3. Vogelstein, B. et al. (2013). *Cancer genome landscapes.* Science, 339(6127), 1546–1558. [DOI](https://doi.org/10.1126/science.1235122)
-4. Chen, T. & Guestrin, C. (2016). *XGBoost: A Scalable Tree Boosting System.* KDD 2016. [DOI](https://doi.org/10.1145/2939672.2939785)
-5. Ke, G. et al. (2017). *LightGBM: A Highly Efficient Gradient Boosting Decision Tree.* NeurIPS 2017. [Paper](https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html)
-6. Lundberg, S.M. & Lee, S.-I. (2017). *A Unified Approach to Interpreting Model Predictions.* NeurIPS 2017. [Paper](https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html)
-7. Saito, T. & Rehmsmeier, M. (2015). *The Precision-Recall Plot Is More Informative than the ROC Plot.* PLoS ONE, 10(3), e0118432. [DOI](https://doi.org/10.1371/journal.pone.0118432)
-8. Bailey, M.H. et al. (2018). *Comprehensive Characterization of Cancer Driver Genes and Mutations.* Cell, 173(2), 371–385. [DOI](https://doi.org/10.1016/j.cell.2018.02.060)
+The algorithms, methodologies, and definitions employed in this project are drawn from the following comprehensive literature (you can find the full PDFs organized within the `papers/` directory):
+
+**Cancer Genomics & Biological Baselines:**
+1. Sondka, Z. et al. (2018). *The COSMIC Cancer Gene Census.* Nature Reviews Cancer, 18(11).
+2. Tate, J.G. et al. (2019). *COSMIC: the Catalogue Of Somatic Mutations In Cancer.* NAR, 47(D1).
+3. Vogelstein, B. et al. (2013). *Cancer genome landscapes.* Science, 339(6127).
+4. Bailey, M.H. et al. (2018). *Comprehensive Characterization of Cancer Driver Genes and Mutations.* Cell, 173(2).
+5. Hanahan, D. & Weinberg, R. A. (2011). *Hallmarks of cancer: the next generation.* Cell, 144(5).
+6. Stratton, M. R. et al. (2009). *The cancer genome.* Nature, 458(7239).
+7. Alexandrov, L. B. et al. (2013). *Signatures of mutational processes in human cancer.* Nature, 500(7463).
+8. Martincorena, I. et al. (2017). *Universal patterns of selection in cancer and somatic tissues.* Cell, 171(5).
+
+**Variant Effect Classifiers & Target Identification Tools:**
+9. Adzhubei, I. A. et al. (2010). *A method and server for predicting damaging missense mutations (PolyPhen-2).* Nature Methods, 7(4).
+10. Ng, P. C. & Henikoff, S. (2001). *Predicting deleterious amino acid substitutions (SIFT).* Genome Research, 11(5).
+11. Kircher, M. et al. (2014). *A general framework for estimating the relative pathogenicity of human genetic variants (CADD).* Nature Genetics, 46(3).
+12. Carter, H. et al. (2009). *Cancer-specific high-throughput annotation of somatic mutations (CHASM).* Cancer Research, 69(16).
+13. Tokheim, C. & Karchin, R. (2019). *CHASMplus reveals the scope of somatic missense mutations driving human cancers.* Cell Systems, 9(1).
+14. Lawrence, M. S. et al. (2013). *Mutational heterogeneity in cancer and the search for new cancer-associated genes (MutSigCV).* Nature, 499(7457).
+
+**Machine Learning & Statistics:**
+15. Chen, T. & Guestrin, C. (2016). *XGBoost: A Scalable Tree Boosting System.* KDD '16.
+16. Ke, G. et al. (2017). *LightGBM: A Highly Efficient Gradient Boosting Decision Tree.* NeurIPS 2017.
+17. Breiman, L. (2001). *Random forests.* Machine Learning, 45(1).
+18. Friedman, J. H. (2001). *Greedy function approximation: a gradient boosting machine.* Annals of Statistics, 29(5).
+19. Chawla, N. V. et al. (2002). *SMOTE: synthetic minority over-sampling technique.* JAIR, 16.
+20. Lundberg, S.M. & Lee, S.-I. (2017). *A Unified Approach to Interpreting Model Predictions (SHAP).* NeurIPS 2017.
+21. Saito, T. & Rehmsmeier, M. (2015). *The Precision-Recall Plot Is More Informative than the ROC Plot.* PLoS ONE, 10(3).
+22. Pedregosa, F. et al. (2011). *Scikit-learn: Machine learning in Python.* JMLR, 12.
 
 ---
 
